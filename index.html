@@ -1,157 +1,365 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- saved from url=(0038)http://region.e-qyzmet.kz/kz/kapshagay -->
+<html lang="kz-KZ"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="7QCFmPeHo2BiPalTk9ZwgiMYf4nOU-K6VX8o6gHVOjydbtrLsuDgM1Zxwn7rgki2RnESub4f2_4UE3C9dOdJTg==">
+    <title>База вакансий</title>
+    <meta name="description" content="">
+<link href="./База вакансий_files/font-awesome.min.css" rel="stylesheet">
+<link href="./База вакансий_files/loader.css" rel="stylesheet">
+<link href="./База вакансий_files/bootstrap.min.css" rel="stylesheet">
+<link href="./База вакансий_files/mdb.min.css" rel="stylesheet">
+<link href="./База вакансий_files/styles.css" rel="stylesheet">
+<link href="./База вакансий_files/responsive.css" rel="stylesheet"><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style></head>
+<body>
 
-<head>
+<div class="wrapper">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    
+<header>
+    <nav class="navbar-main navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="http://region.e-qyzmet.kz/kz">
+                <strong>E-QYZMET</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-main-nav navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link waves-effect waves-light" href="http://region.e-qyzmet.kz/kapshagay/">Басты бет</a></li>
+                    <li class="nav-item"><a class="nav-link waves-effect waves-light" href="http://region.e-qyzmet.kz/kapshagay/vacancy">Бос жұмыс орындары</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link waves-effect waves-light" href="http://region.e-qyzmet.kz/kapshagay/organization">Ұйымдар</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
 
-  <title>OQU Soft</title>
+                                            <li class="nav-item">
+                            <a href="http://region.e-qyzmet.kz/kapshagay/login/" class="nav-link border border-light rounded mr-1 waves-effect waves-light"> Кіру</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://region.e-qyzmet.kz/kz/user/auth/signup?regionurl=kapshagay" class="nav-link border border-light rounded mr-1 waves-effect waves-light"> Тіркелу</a>
+                        </li>
+                    
+                    <li class="nav-item dropdown">
+                        
+<a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Қазақша</a>
+<div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+            <a class="dropdown-item waves-effect waves-light" href="http://region.e-qyzmet.kz/ru/kapshagay">Русский</a>            <a class="dropdown-item waves-effect waves-light" href="http://region.e-qyzmet.kz/kz/kapshagay">Қазақша</a>    </div>                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
-  <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Выберите раздел</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Тарификация</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">Наем сотрудников</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Детский сад</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Мой кабинет</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Контакты</a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">Портал OQU Soft</h1>
-      <h3 class="mb-5">
-        <em></em>
-      </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Выбрать Категорию</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
-  <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
     <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Для АГДС</h3>
-        <h2 class="mb-5">Создание Меритократии</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-          <h4>
-            <strong>Мобильность</strong>
-          </h4>
-          <p class="text-faded mb-0">Вы можете поспользоваться системой с любого девайса!</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-          <h4>
-            <strong>Redesigned</strong>
-          </h4>
-          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-          <h4>
-            <strong>Favorited</strong>
-          </h4>
-          <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
-            Start Bootstrap!</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Question</strong>
-          </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
+        <div class="row">
+                    </div>
+            </div>
+    <main>
+        
+<div id="main">
     <div class="container">
-      <ul class="list-inline mb-5">
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-facebook"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
-            <i class="icon-social-github"></i>
-          </a>
-        </li>
-      </ul>
-      <p class="text-muted small mb-0">Права защищены &copy; OQU Soft 2019</p>
+        <h1 class="offer-title text-center">
+            <span> Қапшағай қаласы</span> мектептер мен мектепке дейінгі білім беру мекемелерінің бос жұмыс орындары базасы        </h1>
+        <div class="main-stat-box aa"><style>.main-stat-box.aa{margin:0}</style>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div class="main-stat-item">
+                        <div class="main-stat-item__icon">
+                            <img src="./База вакансий_files/org.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-stat-item__info">
+                            <div class="main-stat-item__count">
+                                7                            </div>
+                            <div class="main-stat-item__text">
+                                Мектеп                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="main-stat-item">
+                        <div class="main-stat-item__icon">
+                            <img src="./База вакансий_files/vacancy.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-stat-item__info">
+                            <div class="main-stat-item__count">
+                                6                            </div>
+                            <div class="main-stat-item__text">
+                                Бос жұмыс орындар                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="main-stat-item">
+                        <div class="main-stat-item__icon">
+                            <img src="./База вакансий_files/resume.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-stat-item__info">
+                            <div class="main-stat-item__count">
+                                3                            </div>
+                            <div class="main-stat-item__text">
+                                Өтініштер                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="main-stat-item">
+                        <div class="main-stat-item__icon">
+                            <img src="./База вакансий_files/people.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-stat-item__info">
+                            <div class="main-stat-item__count">
+                                0                            </div>
+                            <div class="main-stat-item__text">
+                                Комиссиядан өткен                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-stat-item__text aa"><style>.main-stat-item__text.aa{text-align: center}</style>
+                Мұғалімдер рейтингі  <img src="./База вакансий_files/star.png" alt="">
+            </div>
+        </div>
+
+        <div class="main-stat-box  aa"><style>.main-stat-box.aa{padding-top:0}</style>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div class="main-stat-item">
+                        <div class="main-stat-item__icon">
+                            <img src="./База вакансий_files/org.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-stat-item__info">
+                            <div class="main-stat-item__count">
+                                8                            </div>
+                            <div class="main-stat-item__text">
+                                Балабақша                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="main-stat-item">
+                        <div class="main-stat-item__icon">
+                            <img src="./База вакансий_files/vacancy.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-stat-item__info">
+                            <div class="main-stat-item__count">
+                                4                            </div>
+                            <div class="main-stat-item__text">
+                                Бос жұмыс орындар                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="main-stat-item">
+                        <div class="main-stat-item__icon">
+                            <img src="./База вакансий_files/resume.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-stat-item__info">
+                            <div class="main-stat-item__count">
+                                1                            </div>
+                            <div class="main-stat-item__text">
+                                Өтініштер                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="main-stat-item">
+                        <div class="main-stat-item__icon">
+                            <img src="./База вакансий_files/people.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-stat-item__info">
+                            <div class="main-stat-item__count">
+                                0                            </div>
+                            <div class="main-stat-item__text">
+                                Комиссиядан өткен                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-  </footer>
+</div>
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
+<div id="main-vacancies">
+    <div class="container">
+        <h2 class="section-title">
+            Бос орындар        </h2>
+        <hr>
+                    <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Қызмет</th>
+                        <th>Ұйым атауы</th>
+                        <th>Жариялау уақыты</th>
+                        <th>Өтініштер саны</th>
+                        <th>Өтініш қабылдау мерзімінің аяқталу күні</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr class="js-vacancy-item" key="2" data-url="/ru/vacancy/vacancy/info?id=2" data-key="2">
+                            <td>Қазақ тілі мұғалімі</td>
+                            <td>«ҚАПШАҒАЙ ҚАЛАСЫНЫҢ БІЛІМ БӨЛІМІ» МЕМЛЕКЕТТІК МЕКЕМЕСІНІҢ «ОРТА МЕКТЕП-ГИМНАЗИЯ МЕКТЕПКЕ ДЕЙІНГІ ШАҒЫН ОРТАЛЫҒЫМЕН» МЕМЛЕКЕТТІК КОММУНАЛДЫҚ МЕКЕМЕСІ</td>
+                            <td style="width:150px; text-align: center">12.02.2019</td>
+                            <td style="width:150px; text-align: center">1</td>
+                            <td style="width:150px; text-align: center">13.02.2019</td>
+                        </tr>
+                                            <tr class="js-vacancy-item" key="3" data-url="/ru/vacancy/vacancy/info?id=3" data-key="3">
+                            <td>Дене шынықтыру мұғалімі</td>
+                            <td>«ҚАПШАҒАЙ ҚАЛАСЫНЫҢ БІЛІМ БӨЛІМІ» МЕМЛЕКЕТТІК МЕКЕМЕСІНІҢ «Д.А.ҚОНАЕВ АТЫНДАҒЫ №1 ҚАЗАҚ ОРТА МЕКТЕП» МЕМЛЕКЕТТІК КОММУНАЛДЫҚ МЕКЕМЕСІ</td>
+                            <td style="width:150px; text-align: center">12.02.2019</td>
+                            <td style="width:150px; text-align: center">1</td>
+                            <td style="width:150px; text-align: center">13.02.2019</td>
+                        </tr>
+                                            <tr class="js-vacancy-item" key="4" data-url="/ru/vacancy/vacancy/info?id=4" data-key="4">
+                            <td>Шет тілі мұғалімі</td>
+                            <td>«ҚАПШАҒАЙ ҚАЛАСЫНЫҢ БІЛІМ БӨЛІМІ» МЕМЛЕКЕТТІК МЕКЕМЕСІНІҢ «№3 ОРТА МЕКТЕП» МЕМЛЕКЕТТІК КОММУНАЛДЫҚ МЕКЕМЕСІ</td>
+                            <td style="width:150px; text-align: center">12.02.2019</td>
+                            <td style="width:150px; text-align: center">0</td>
+                            <td style="width:150px; text-align: center">26.02.2019</td>
+                        </tr>
+                                            <tr class="js-vacancy-item" key="5" data-url="/ru/vacancy/vacancy/info?id=5" data-key="5">
+                            <td>Логопед</td>
+                            <td>«ҚАПШАҒАЙ ҚАЛАСЫНЫҢ БІЛІМ БӨЛІМІ» МЕМЛЕКЕТТІК МЕКЕМЕСІНІҢ «НҰР-БӨБЕК» БАЛАБАҚШАСЫ»МЕМЛЕКЕТТІК КОММУНАЛДЫҚ ҚАЗЫНАЛЫҚ КӘСІПОРНЫ</td>
+                            <td style="width:150px; text-align: center">12.02.2019</td>
+                            <td style="width:150px; text-align: center">0</td>
+                            <td style="width:150px; text-align: center">14.02.2019</td>
+                        </tr>
+                                            <tr class="js-vacancy-item" key="6" data-url="/ru/vacancy/vacancy/info?id=6" data-key="6">
+                            <td>Логопед</td>
+                            <td>«ҚАПШАҒАЙ ҚАЛАСЫНЫҢ БІЛІМ БӨЛІМІ» МЕМЛЕКЕТТІК МЕКЕМЕСІНІҢ «ИСКОРКА» БАЛАБАҚШАСЫ»МЕМЛЕКЕТТІК КОММУНАЛДЫҚ ҚАЗЫНАЛЫҚ КӘСІПОРНЫ</td>
+                            <td style="width:150px; text-align: center">12.02.2019</td>
+                            <td style="width:150px; text-align: center">0</td>
+                            <td style="width:150px; text-align: center">27.02.2019</td>
+                        </tr>
+                                        </tbody>
+                </table>
+            </div>
+            <div class="text-center">
+                <a href="http://region.e-qyzmet.kz/kapshagay/vacancy" class="btn btn-rounded btn-primary waves-effect">
+                    Барлық бос жұмыс орындары                </a>
+            </div>
+            </div>
+</div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<div class="modal fade" id="vacancyModal" tabindex="-1" role="dialog" aria-labelledby="vacancyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content js-vacancy-item-wrap">
+        </div>
+    </div>
+</div>
+    </main>
+</div>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
 
-</body>
+<!--Footer-->
+<footer class="page-footer font-small mdb-color darken-2 mt-4 wow fadeIn">
+    <hr class="my-4">
+    <div class="pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="f-col-title">
+                        Сайт бөлімдері                    </div>
+                    <div class="f-col-content">
 
-</html>
+                        <a href="http://region.e-qyzmet.kz/kapshagay/">Басты бет</a>
+                        <a href="http://region.e-qyzmet.kz/kapshagay/vacancy">Бос жұмыс орындары</a>
+                        <a href="http://region.e-qyzmet.kz/kapshagay/organization">Ұйымдар</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="f-col-title">
+                        Пайдаланушыларға                    </div>
+                    <div class="f-col-content">
+                        <a href="http://region.e-qyzmet.kz/kapshagay/login/"> Кіру</a>
+                        <a href="http://region.e-qyzmet.kz/kapshagay/contact/"> Кері байланыс</a>
+                                                    <a href="http://region.e-qyzmet.kz/ru/kapshagay">Русский</a>                                                    <a href="http://region.e-qyzmet.kz/kz/kapshagay">Қазақша</a>                                            </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="http://region.e-qyzmet.kz/kz/kapshagay#" class="text-white" data-toggle="modal" data-target="#regionModal">Аймақты таңдау</a>
+                </div>
+                <div class="col-lg-6 aa"><style>.col-lg-6.aa{text-align:right;}</style>
+                    © 2018 Ақпараттық жүйелерді автоматтандыру орталығы <br>8 778 080 80 08, <a href="mailto:support@sais.kz">support@sais.kz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div id="loading" class="showbox" style="display: none;">
+    <div class="loading">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle>
+        </svg>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="regionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h5 class="modal-title" id="exampleModalLabel">Аймақты таңдау</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="list-group">
+                    
+                    <a target="_blank" href="http://region.e-qyzmet.kz/kz/kapshagay" class="list-group-item list-group-item-action">Қапшағай қаласы</a>
+                    <a target="_blank" href="http://region.e-qyzmet.kz/kz/taldykorgan" class="list-group-item list-group-item-action">Талдықорған қаласы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/tekeli" class="list-group-item list-group-item-action">Текелі қаласы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/aksuskiy" class="list-group-item list-group-item-action">Ақсу ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/alakolskiy" class="list-group-item list-group-item-action">Алакөл ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/balkhashskiy" class="list-group-item list-group-item-action">Балқаш ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/yenbekshikazakhskiy" class="list-group-item list-group-item-action">Еңбекшіқазақ ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/yeskeldinskiy" class="list-group-item list-group-item-action">Ескелді ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/zhambylskiy" class="list-group-item list-group-item-action">Жамбыл ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/iliyskiy" class="list-group-item list-group-item-action">Іле ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/karasayskiy" class="list-group-item list-group-item-action">Қарасай ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/karatalskiy" class="list-group-item list-group-item-action">Қаратал ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/kegenskiy" class="list-group-item list-group-item-action">Кеген ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/kerbulakskiy" class="list-group-item list-group-item-action">Кербұлақ ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/koksuskiy" class="list-group-item list-group-item-action">Көксу ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/panfilovskiy" class="list-group-item list-group-item-action">Панфилов ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/rayymbekskiy" class="list-group-item list-group-item-action">Райымбек ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/sarkandskiy" class="list-group-item list-group-item-action">Сарқан ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/talgarskiy" class="list-group-item list-group-item-action">Талғар ауданы</a>
+                    <a href="http://region.e-qyzmet.kz/kz/uygurskiy" class="list-group-item list-group-item-action">Ұйғыр ауданы</a>
+                                        <!--
+                    <a href="http://kapshagay.e-qyzmet.kz/kz/" class="list-group-item list-group-item-action">Капшагай</a>
+                    <a href="http://taldykorgan.e-qyzmet.kz/kz" class="list-group-item list-group-item-action">Талдықорған</a>
+                    -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="./База вакансий_files/jquery.js.Без названия"></script>
+<script src="./База вакансий_files/yii.js.Без названия"></script>
+<script src="./База вакансий_files/popper.min.js.Без названия"></script>
+<script src="./База вакансий_files/bootstrap.min.js.Без названия"></script>
+<script src="./База вакансий_files/mdb.min.js.Без названия"></script><div class="hiddendiv common"></div>
+<script src="./База вакансий_files/easytimer.min.js.Без названия"></script>
+<script src="./База вакансий_files/main.js.Без названия"></script>
+
+</body></html>

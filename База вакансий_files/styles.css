@@ -1,0 +1,345 @@
+html, body {
+    height: 100%;
+}
+body {
+}
+
+
+/*common*/
+.wrapper {
+    height: auto;
+    min-height: 100%;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+}
+.help-block {
+    color: #dc3545;
+    font-size: 14px;
+}
+.page-title {
+    font-size: 24px;
+    margin: 15px 0;
+}
+.btn-rounded {
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+}
+.breadcrumb {
+    padding: 0 15px;
+    margin: 1rem 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: .25rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.breadcrumb li.breadcrumb-item a {
+    color: #0c0c0c;
+}
+.breadcrumb li.breadcrumb-item a, .breadcrumb li.active {
+    font-size: 13px;
+    display: inline-block;
+}
+.breadcrumb li.active {
+    padding: 3px 0;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #2e3951;
+    content: "\25BA";
+    font-size: 12px;
+}
+.breadcrumb li.active:before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #2e3951;
+    content: "\25BA";
+}
+p.help-block {
+    font-size: 12px;
+    color: #d90808;
+}
+.alert {
+    opacity: 1!important;
+    width: 100%;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.pagination>li {
+    display: inline;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #ddd;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #2196f3;
+}
+.btn-action {
+    display: inline-block;
+    padding: 2px 12px;
+    border-radius: 4px;
+    background-color: #007bff!important;
+    color: #ffffff!important;
+}
+.table td, .table th {
+    padding: .5rem;
+}
+table.table td, table.table th {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.list-group-item {
+    padding: .4rem;
+    font-size: 14px;
+    color: #000;
+}
+
+
+
+
+
+/*header*/
+.navbar-main.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #2e3951;
+}
+.dropdown-menu.dropdown-menu-right {
+    padding: 0;
+}
+
+
+
+    /*main*/
+.offer-title {
+    font-size: 2rem;
+    margin: 3rem auto;
+    max-width: 75%;
+}
+.main-stat-item {
+    display: flex;
+    align-items: center;
+}
+.main-stat-item__icon {
+    text-align: center;
+}
+.main-stat-item__icon img {
+    max-width: 70px;
+}
+.main-stat-item__info {
+    padding-left: 1rem;
+}
+.main-stat-item__count {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.3;
+}
+.main-stat-box {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.main-stat-item__text {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+/*garden*/
+.garden-list__header {
+    padding: 10px 5px;
+    border-bottom: 2px solid #dee2e6;
+    margin-bottom: 10px;
+}
+.garden-list .garden-list-row:nth-child(2n+1) {
+    background: #f9f9f9;
+}
+.garden-item {
+    padding: 15px 5px;
+    color: #000;
+    font-size: 14px;
+    line-height: 1;
+}
+
+
+/*vacancy*/
+.vacancy-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.vacancy-list-row {
+    width: calc(100%/2 - 10px);
+    float: left;
+    margin: 0 10px 0 0;
+}
+.vacancy-item__info-row {
+    font-size: 14px;
+}
+.vacancy-item {
+    margin-bottom: 15px;
+}
+.vacancy-list .grid-view {
+    width: 100%;
+}
+.vacancy-list table.table thead th {
+    vertical-align: middle;
+    line-height: 1;
+}
+.vacancy-list table.table tbody tr:hover {
+    cursor: pointer;
+}
+.js-vacancy-item:hover {
+    cursor: pointer;
+    background: #2e3951 !important;
+    color: #fff;
+}
+.organization-info {
+    font-size: 14px;
+}
+
+/* login */
+.login-select-item {
+    background: url(/img/arr.png) no-repeat center right 5px;
+    background-size: auto 20px;
+}
+
+
+/*profile*/
+.list-group.profile-group a {
+    padding: 15px 10px;
+}
+.list-group.profile-group a i {
+    margin-right: 7px;
+}
+
+.profile-nav {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.profile-nav ul li a {
+    color: #495057;
+}
+.profile-nav ul li a.active {
+    background: #2e3951;
+    color: #fff;
+    border-radius: 3px;
+}
+.profile-nav ul li a i {
+    margin-right: 3px;
+}
+
+/* footer*/
+.f-col-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgba(255,255,255,.6);
+}
+.f-col-content a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.resume-accordion .card-header {
+    padding: 0;
+}
+
+
+/*statement*/
+.statement-item {
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    padding: 15px 0 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1;
+}
+.statement-item table.table td, .statement-item table.table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#candidateModal .tab-content {
+    padding: 15px 0;
+}
+form#votingForm label {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form#votingForm label:hover, form#votingForm label:focus {
+    cursor: pointer;
+    background: #eee;
+}
+
+/*testing*/
+.test-inside-title {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 1rem 0;
+}
+.answers-list {
+    padding: 1rem 0;
+    min-height: 170px;
+}
+.testing-page {
+    padding: 2rem 0;
+}
+.testing-page .page-title {
+    margin: 15px 0 25px 0;
+}
+.answers-list label {
+    display: block;
+    padding: 7px 5px;
+}
+.answers-list label:hover {
+    cursor: pointer;
+    background: #ddd;
+}
+.timer-countdown {
+    position: fixed;
+    top: 0;
+    padding: 4px;
+    left: 0;
+    right: 0;
+}
+.timer-countdown__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+div#countdownTesting {
+    margin-left: 10px;
+}
