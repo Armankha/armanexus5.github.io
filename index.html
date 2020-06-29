@@ -1,151 +1,283 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - OQUMED</title>
-    <meta name="description" content="База вакансий медицинских учреждений Алматинской области">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>OQUSOFT LLP</title>
+  <meta content="ТОО ОКУ СОФТ" name="descriptison">
+  <meta content="ТОО ОКУ СОФТ" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand bg-white d-sm-flex navigation-clean">
-        <div class="container"><a class="navbar-brand text-left" href="index.html"><i class="fa fa-home"></i></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"></button>
-            <div class="collapse navbar-collapse text-monospace text-capitalize" id="navcol-1">
-                <ul class="nav navbar-nav text-left text-sm-left text-md-left text-lg-left text-xl-left mx-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active text-left" href="index.html">Главная</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="vacancy.html" target="_parent">Вакансии</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="organizations.html">Учреждения</a></li>
-                </ul><span class="ml-auto navbar-text"><a class="ml-auto" href="login.html"><i class="fa fa-user"></i></a></span></div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+      
+        <h1><a href="index.html">OQUsoft</a></h1>
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Главная</a></li>
+          <li><a href="#about">Решения</a></li>
+          <li><a href="#services">Почему мы</a></li>
+          <li><a href="#contact">Задать вопрос</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+
+    </div>
+  </header><!-- #header -->
+
+  <!-- ======= вструпление======= -->
+  <section id="intro" class="clearfix">
+    <div class="container" data-aos="fade-up">
+
+      <div class="intro-img" data-aos="zoom-out" data-aos-delay="200">
+        <img src="assets/img/intro-img.svg" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info" data-aos="zoom-in" data-aos-delay="100">
+        <h2>Инновации -<br><span>наш стратегический ориентир</span><br>Нам доверяют решать задачи различной сложности</h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Проекты</a>
+          <a href="#services" class="btn-services scrollto">О нас</a>
         </div>
-    </nav>
-    <header class="masthead text-white text-center" style="background:url('assets/img/bg-masthead.jpg')no-repeat center center;background-size:cover;">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9 mx-auto">
-                    <h1 class="mb-5">База вакансий медицинских учреждений для Алматинской области</h1>
-                </div>
-                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <form>
-                        <div class="form-row">
-                            <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" required="" placeholder="Введите название региона" maxlength="20" minlength="5"></div>
-                            <div class="col-12 col-md-3"><button class="btn btn-primary btn-block btn-lg" type="submit">Начать поиск!</button></div>
-                        </div>
-                    </form>
-                </div>
+      </div>
+
+    </div>
+  </section><!-- Конец -->
+
+  <main id="main">
+
+    <!-- =======Решения ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Почему нам доверяют?</h3>
+          <p></p>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              Мы не перестаём искать и внедрять новые решения, которые соответствуют Государственной программе «Цифровой Казахстан». Мы не только отслеживаем тренды в digital-среде, но и задаём их.
+            </p>
+            <br>Нам доверяют решать задачи различной сложности, потому что команда OQUsoft:</br>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="fa fa-exclamation-triangle"></i></div>
+              <h4 class="title"><a href="">ИННОВАЦИОННАЯ</a></h4>
+              <p class="description">Мы популяризируем новые направления в сфере цифровизации, осваиваем передовые технологии.</p>
             </div>
-        </div>
-    </header>
-    <section class="features-icons bg-light text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-user m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
-                        <h3>Полная прозрачность</h3>
-                        <p class="lead mb-0">Набор сотрудников производится в открытом доступе, все открытые позиции имеются в базе!</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-layers m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
-                        <h3>Упрощенное трудоустройство</h3>
-                        <p class="lead mb-0">Вся последовательность событий для успешного получения должности ясна как день!</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-check m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
-                        <h3>Раз-Два и вы трудоутроены</h3>
-                        <p class="lead mb-0">Переход между организациями упрощен, полностью цифровой документооборот!</p>
-                    </div>
-                </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title"><a href="">КЛИЕНТООРИЕНТИРОВАННАЯ</a></h4>
+              <p class="description">OQUsoft разрабатывает комплексное решение, учитывающее специфику запросов населения и государства.</p>
             </div>
-        </div>
-    </section>
-    <section class="showcase">
-        <div class="container-fluid p-0"></div>
-    </section>
-    <section class="testimonials text-center bg-light">
-        <div class="container">
-            <h2 class="mb-5">Отзывы&nbsp;</h2>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="mx-auto testimonial-item mb-5 mb-lg-0"><img class="rounded-circle img-fluid mb-3" src="assets/img/testimonials-1.jpg">
-                        <h5>Маргарита Онколог</h5>
-                        <p class="font-weight-light mb-0">Госпади, за два дня усторилась!</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-auto testimonial-item mb-5 mb-lg-0"><img class="rounded-circle img-fluid mb-3" src="assets/img/testimonials-2.jpg">
-                        <h5>Петя</h5>
-                        <p class="font-weight-light mb-0">ОКУ-МЕД спасибо, все понятно!</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-auto testimonial-item mb-5 mb-lg-0"><img class="rounded-circle img-fluid mb-3" src="assets/img/testimonials-3.jpg">
-                        <h5>Айгуль</h5>
-                        <p class="font-weight-light mb-0">"Все чётко!"</p>
-                    </div>
-                </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">ПРОФЕССИОНАЛЬНАЯ</a></h4>
+              <p class="description">В нашем портфолио — проекты для государственных учереждений в масштабах городов и областей.</p>
             </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
+            <img src="assets/img/about-img.svg" class="img-fluid" alt="">
+          </div>
         </div>
-    </section>
-    <section class="call-to-action text-white text-center" style="background:url(&quot;assets/img/bg-masthead.jpg&quot;) no-repeat center center;background-size:cover;">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9 mx-auto">
-                    <h2 class="mb-4">Вы готовы?</h2>
-                </div>
-                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <form>
-                        <div class="form-row">
-                            <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Выберите название региона"></div>
-                            <div class="col-12 col-md-3"><button class="btn btn-primary btn-block btn-lg" type="submit">Начать поиск</button></div>
-                        </div>
-                    </form>
-                </div>
+
+      
+        </div>
+
+      </div>
+    </section><!-- Конец -->
+
+    <!-- ======= Наши проекты ======= -->
+    <section id="services" class="section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Наши проекты</h3>
+          <p></p>
+        </header>
+
+        <div class="row justify-content-center">
+
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <div class="icon col-lg-5"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="https://kazkt.kz">KazKT</a></h4>
+              <p class="description">Новые возможности онлайн обучения</p>
             </div>
-        </div>
-    </section>
-    <footer class="footer bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 my-auto h-100 text-center text-lg-left">
-                    <ul class="list-inline mb-2">
-                        <li class="list-inline-item"><a href="#">About</a></li>
-                        <li class="list-inline-item"><span>⋅</span></li>
-                        <li class="list-inline-item"><a href="vacancy.html">Contact</a></li>
-                        <li class="list-inline-item"><span>⋅</span></li>
-                        <li class="list-inline-item"><a href="#">Terms of &nbsp;Use</a></li>
-                        <li class="list-inline-item"><span>⋅</span></li>
-                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                    </ul>
-                    <p class="text-muted small mb-4 mb-lg-0">© OQUMED 2018. All Rights Reserved.</p>
-                </div>
-                <div class="col-lg-6 my-auto h-100 text-center text-lg-right">
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook fa-2x fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter fa-2x fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram fa-2x fa-fw"></i></a></li>
-                    </ul>
-                </div>
+          </div>
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <div class="icon col-lg-5"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="http://e-qyzmet.kz">E-qyzmet</a></h4>
+              <p class="description">Совершенствует процесс отбора претендентов на вакантную должность</p>
             </div>
+          </div>
+
+
+
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <div class="icon col-lg-5"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a href="http://oqumap.kz">OQUmap</a></h4>
+              <p class="description">Решение для городов поддерживающих политику "Слышащего государства"</p>
+            </div>
+          </div>
+        
+
         </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/bs-animation.js"></script>
+
+      </div>
+    </section><!-- Конец секции -->
+
+
+  
+
+    <!-- ======= Контактас ======= -->
+    <section id="contact">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h3>Задать вопрос</h3>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="map mb-4 mb-lg-0">
+              <div id="map" style="width: 100%; height: 400px;"></div>
+        <script>
+            DG.then(function() {
+                var map = DG.map('map', {
+                    center: [43.248647, 76.958253],
+                    zoom: 15
+                });
+
+                DG.marker([43.248647, 76.958253]).addTo(map).bindPopup('ТОО "ОКУ Софт" ');
+            });
+        </script>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i class="ion-ios-location-outline"></i>
+                <p>Зенкова 80, г. Алматы</p>
+              </div>
+              <div class="col-md-4 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>info@oqusoft.kz</p>
+              </div>
+              <div class="col-md-3 info">
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+7 700 711 00 34</p>
+              </div>
+            </div>
+            <div class="container container-fluid">
+              <script src="https://yastatic.net/q/forms-frontend-ext/_/embed.js"></script>
+            <iframe src="https://forms.yandex.com/u/5ef8ea57db6ec978edf2fd43/?iframe=1" frameborder="0" name="ya-form-5ef8ea57db6ec978edf2fd43" width="650"></iframe>
+            </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>OQUSoft</h3>
+            <p>Все права защищены 2020™.</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Полезные ссылки</h4>
+            <ul>
+              <li><a href="http://e-qyzmet.kz">E-Qyzmet</a></li>
+              <li><a href="http://kazkt.kz">KAZ Konnekt</a></li>
+              <li><a href="http://oqumap.kz">OQUmap</a></li>
+          
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Связаться с нами</h4>
+            <p>
+              Зенкова 80, <br>
+              г. Алматы, 050000<br>
+              Республика Казахстан <br>
+              <strong>Телефон:</strong> +7 700 711 00 34<br>
+              <strong>Email:</strong> info@oqusoft.kz<br>
+            </p>
+
+            <div class="social-links">
+              <!-- <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> -->
+              <a href="https://www.instagram.com/oqusoft.kz/" class="instagram"><i class="fa fa-instagram"></i></a>
+              <!-- <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
+            </div>
+
+          </div>
+
+          
+
+        </div>
+      </div>
+    </div>
+
+    
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
